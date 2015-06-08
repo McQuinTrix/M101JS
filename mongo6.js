@@ -1,3 +1,5 @@
+//Run it with hello1.html: Localhost:3000/anyname?getvar1=someval&getvar2=someval
+
 var express = require('express'),
     app = express(),//Web framework to handle routing requests
     cons = require('consolidate'); // Templating library adapter for Express
